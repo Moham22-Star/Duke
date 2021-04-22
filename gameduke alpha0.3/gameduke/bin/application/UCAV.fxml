@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="338.0" maxWidth="365.0" minHeight="338.0" minWidth="365.0" prefHeight="338.0" prefWidth="365.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Constructioncontroller">
+   <children>
+      <ImageView fitHeight="273.0" fitWidth="367.0" opacity="0.84" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/Construction.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="141.0" layoutY="286.0" mnemonicParsing="false" onAction="#clickedback" prefHeight="38.0" prefWidth="88.0" style="-fx-background-color: silver;" text="BACK" textAlignment="JUSTIFY" textFill="#137535">
+         <font>
+            <Font name="Stencil" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
